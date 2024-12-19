@@ -12,7 +12,7 @@ interface ImageModalProps {
   onClose: () => void;
 }
 
-Modal.setAppElement("#root");
+Modal.setAppElement("#app");
 
 const ImageModal: React.FC<ImageModalProps> = ({ image, onClose }) => {
   return (
